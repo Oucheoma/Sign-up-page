@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+   font-family: poppins;
+   margin-top: 30px;
+   margin-left: 20px;
+   margin-right: 20px;
+   
+}
+.radio1{
+   margin-top: -10px;
+}
+.required-field-name::before {
+   content: "*";
+   color: red;
+   float: right;
+   padding-bottom: 15px;
+ }
